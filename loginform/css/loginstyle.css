@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Thasadith', sans-serif;
+}
+
+.log {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.loginpanel {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    box-shadow: 10px 10px 5px rgb(172, 172, 172);
+}
+
+.loginpanel .img img {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.loginpanel .form {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    display: grid;
+    place-items: center;
+    padding: 35px;
+}
+
+.loginpanel .form p {
+    padding-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+.loginpanel .form .input {
+    height: 35px;
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 3%;
+}
+
+.loginpanel .form .input:hover {
+    background-color: rgb(139, 139, 139);
+    color: black;
+}
+
+.loginpanel .form .btn {
+    margin: 15px;
+    margin-left: 0px;
+    height: 35px;
+    width: 65px;
+    background-color: rgb(139, 139, 139);
+    color: rgb(0, 0, 0);
+    border-radius: 25% 10%;
+}
+
+.loginpanel .form .btn:hover {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
